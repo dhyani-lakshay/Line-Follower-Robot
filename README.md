@@ -11,17 +11,21 @@ This project is a simple Line Follower Robot built using an Arduino Uno, three I
 - 1 Castor wheel
 - Hardboard chassis (self-made)
 - Jumper wires
-- DC power source (5V 1A Adaptor)
+- DC power source (5V 1A Adaptor) (Batteries can also be used instead of adaptor for portability)
 - DC power jack adaptor connector plug female
 
 ## Circuit and Wiring
-The IR sensors detect the line by sensing the reflected infrared light. The Arduino processes the sensor inputs and controls the motor driver shield to adjust the motors' speed and direction, enabling the robot to follow the line smoothly.
+The IR sensors detect the line by sensing the reflected infrared light. The Arduino processes the sensor inputs and controls the motor driver shield to adjust the motors' speed and direction, enabling the robot to follow the line smoothly. (See instructions)
 
 ## Code Overview
-The Arduino code reads the three IR sensors and applies logic to control the motors via the L298P driver. The motors move forward, turn left, or turn right based on the line position detected by the sensors.
+- Sensor pins defined as LEFT_SENSOR (2), CENTER_SENSOR (3), RIGHT_SENSOR (7).
+- Motor PWM and direction pins defined to Arduino PWM pins 10,11 for speed and digital pins 12,13 for direction.
+- Logic moves motors forward, or turns left/right based on IR sensor inputs.
+- If sensors lose line, the robot searches by turning in the last detected direction until line found.
+- Motor functions control speed and direction using PWM and digital signals.
 
 ## How to Use
-1. Connect the components as per the circuit diagram (to be added).
+1. Connect the components as per the circuit diagram.
 2. Upload the Arduino code (`code.ino`) to the Arduino Uno using the Arduino IDE.
 3. Place the robot on a track with a black line on a white surface.
 4. Power the robot and it will follow the line automatically.
