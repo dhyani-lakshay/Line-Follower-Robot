@@ -24,3 +24,7 @@
 - Test sensor readings via Arduino Serial Monitor to confirm clear HIGH/LOW signals.
 
 ---
+
+## Power Supply
+
+- Power the motors and motor driver shield by supplying an external DC power source directly to the L298P motor driver shield's power input terminals.
