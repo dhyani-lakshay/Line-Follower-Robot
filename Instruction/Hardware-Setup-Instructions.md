@@ -4,7 +4,7 @@
 - Place the L298P motor driver shield carefully on the Arduino Uno pins and press down to secure.
 
 ### 2. Connect IR Sensors
-- Connect the sensor outputs to Arduino pins:
+- Connect the sensor outputs to Arduino pins using jumper wires:
   - Left Sensor → Pin 2
   - Center Sensor → Pin 3
   - Right Sensor → Pin 7
