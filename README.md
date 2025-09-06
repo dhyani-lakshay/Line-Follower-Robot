@@ -1,4 +1,4 @@
-<img width="546" height="547" alt="image" src="https://github.com/user-attachments/assets/84e053e7-34e9-418e-ba10-f8da5fc59709" /># Line Follower Robot
+# Line Follower Robot
 
 ## Description
 This project is a simple Line Follower Robot built using an Arduino Uno, three IR sensors, an L298P motor driver shield, two DC motors, one castor wheel, and a self-made hardboard chassis. The robot uses the IR sensors to detect a black line on the floor and follows it by controlling the motors accordingly.
