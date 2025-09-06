@@ -21,7 +21,7 @@ The Arduino code reads the three IR sensors and applies logic to control the mot
 
 ## How to Use
 1. Connect the components as per the circuit diagram (to be added).
-2. Upload the Arduino code (`your_code.ino`) to the Arduino Uno using the Arduino IDE.
+2. Upload the Arduino code (`code.ino`) to the Arduino Uno using the Arduino IDE.
 3. Place the robot on a track with a black line on a white surface.
 4. Power the robot and it will follow the line automatically.
 
@@ -29,11 +29,3 @@ The Arduino code reads the three IR sensors and applies logic to control the mot
 - Add PID control for smoother line following.
 - Implement obstacle avoidance features.
 - Improve chassis design for better stability.
-
----
-
-Feel free to add images of your robot and circuit diagram to the repository for better understanding.
-
----
-
-If you want, I can help create a basic folder structure suggestion for your project as well. Would that be helpful?
